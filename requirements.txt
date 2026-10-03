@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+spacy
+scikit-learn
+transformers
+datasets
+torch
+opencv-python
+albumentations
+ultralytics
+Pillow
