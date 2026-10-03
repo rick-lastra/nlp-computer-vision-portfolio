@@ -49,6 +49,17 @@ src/
 
 The support-ticket notebook also benchmarks DistilBERT. Its reported metrics are included above as results from the submitted experiment; the compact script in this repository focuses on the classical, CPU-friendly baseline.
 
+## Data sources
+
+The datasets and image files are not bundled in this repository. Use the original source pages and follow their current access and license terms:
+
+- Movie-review corpus: [`movie_reviews` in NLTK](https://www.nltk.org/book/ch06.html); NLTK downloads the corpus when the analysis script runs.
+- IT support tickets: [IT Service Ticket Classification Dataset on Kaggle](https://www.kaggle.com/datasets/adisongoh/it-service-ticket-classification-dataset).
+- Animal images for preprocessing: [Open Images V7 Animals YOLO on Kaggle](https://www.kaggle.com/datasets/sergiomoy/open-imagea-v7-animals-yolo).
+- Waste images: [Trash Detection Image Dataset on Kaggle](https://www.kaggle.com/datasets/ahnaftahmeed/trash-detection-image-dataset).
+
+The support-ticket and image scripts expect local input paths as shown in the examples below. Check the source terms before redistributing downloaded data.
+
 ## Setup
 
 ```bash
